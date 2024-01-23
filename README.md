@@ -35,7 +35,7 @@ Requirements before installing Project HIT MAN:
 
 Clone the ProjectHTMAN repository
 ```
-git clone https://github.com/username/ProjectHITMAN.git
+git clone https://github.com/usdos/ProjectHITMAN.git
 ```
 Navigate into the project directory
 ```
