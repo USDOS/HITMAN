@@ -1,10 +1,10 @@
-# Project HIT MAN
+# Project HITMAN
 
 Project ***Highly Intuative Technology & Multi-Dimensional Artificial Network*** (HIT MAN) is an advanced Artificial Intelligence (AI) Hive Mind of assistants created by the US Department of Special Projects and Unified Response Services (US-SPURS) Office of Research and Development (O-R&D). It is designed to:
 
 <h3><p align="center">Idea -> Prototype -> Rework/integration -> Beta -> Production/User Facing Solution</span></h3>
 
-Finally by leveraging the power of Parallel Inter-Connected AI's across multiple systems.
+Finally by leveraging the power of Paralleling Independent Technology and Synaptic Tethering and Ombi-Directional Processing System (PIT-STOP) is the bedrock for our Inter-Connected AI's across multiple systems.
 
 ---
 ***HIT MAN demonstrates cutting-edge AI capabilities including:***
