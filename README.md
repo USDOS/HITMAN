@@ -1,8 +1,9 @@
 # Project HITMAN
 
-## 🌐💡The Project Highly Intuative Technology & Multi-Dimensional Artificial Network (HIT MAN) represents a pioneering venture by the US Department of Special Projects and Unified Response Services (US-SPURS) Office of Research and Development (O-R&D). This cutting-edge initiative is meticulously structured to navigate a comprehensive developmental pathway:
+## 🌐💡Highly Intuative Technology & Multi-Dimensional Artificial Network (HIT MAN)
 
-*An Innovation by the US Department of Special Projects and Unified Response Services (US-SPURS) Office of Research and Development (O-R&D)*
+
+The Project Highly Intuative Technology & Multi-Dimensional Artificial Network (HIT MAN) represents a pioneering venture by the US Department of Special Projects and Unified Response Services (US-SPURS) Office of Research and Development (O-R&D). This cutting-edge initiative is meticulously structured to navigate a comprehensive developmental pathway:
 
 ## Visionary Development Pathway 🚀🛠️
 
