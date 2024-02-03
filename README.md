@@ -34,7 +34,7 @@ PIT-STOP stands as the bedrock of this interconnected intelligence network, ensu
 *Embark on a journey where innovation meets sophistication, forging a future where HIT MAN and PIT-STOP redefine the landscape of artificial intelligence.* 
 
 ---
-***HIT MAN demonstrates cutting-edge AI capabilities including:***
+***HITMAN demonstrates cutting-edge AI capabilities including:***
 - Automated workflow optimization
 - Advanced learning algorithms for improved accuracy and consistency 
 - Natural language processing, text understanding and semantic analysis  
@@ -46,16 +46,21 @@ PIT-STOP stands as the bedrock of this interconnected intelligence network, ensu
 - Intelligent task automation
 - Plan formulation and execution
 - Knowledge integration across apps
-- User preference modeling 
+- User preference modeling
+- Ability to self improve through code updates autonomously
+- production of additional sub, AI and AI bot along with task, mastering them in parallel to conduct simple to complex routines and once complete report results results to it, which then will be documented in a final roll up well also ingesting lessons learned from  these subordinates, which are then analyzed, Reviewed, enhanced, integrated, converted into an easily adjustable "lessons learned " style set of data, and lastly is is is segmented and distributed to all existing or new subtasked.
 
 ---
 ## Getting Started
-These instructions will help you get Project HIT MAN up and running on your local system for development and testing purposes.
+These instructions will help you get Project HITMAN up and running on your local system for development and testing purposes.
 
 ## Prerequisites
 Requirements before installing Project HIT MAN:
 - Python 3.6 or higher
 - pip
+- pipenv
+- OpenAI
+- Docker
 - virtualenv (recommended)
 
 ## Installation
