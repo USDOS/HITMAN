@@ -1,9 +1,9 @@
 # Project HITMAN
 
-## 🌐💡Highly Intuative Technology & Multi-Dimensional Artificial Network (HIT MAN)
+## 🌐💡Highly Intuative Technology & Multi-Dimensional Artificial Neural-Network (HITMAN)
 
 
-The Project Highly Intuative Technology & Multi-Dimensional Artificial Network (HIT MAN) represents a pioneering venture by the US Department of Special Projects and Unified Response Services (US-SPURS) Office of Research and Development (O-R&D). This cutting-edge initiative is meticulously structured to navigate a comprehensive developmental pathway:
+The Project Highly Intuative Technology & Multi-Dimensional Artificial Neural-Network (HITMAN) represents a pioneering venture by the US Department of Special Projects and Unified Response Services (US-SPURS) Office of Research and Development (O-R&D). This cutting-edge initiative is meticulously structured to navigate a comprehensive developmental pathway:
 
 ## Visionary Development Pathway 🚀🛠️
 
@@ -17,18 +17,19 @@ The Project Highly Intuative Technology & Multi-Dimensional Artificial Network (
    - An iterative process unfolds, continuously refining the AI system based on real-world challenges and invaluable feedback.
 
 4. **Beta 🚧:** 
-   - Robust beta testing commences, subjecting the system to diverse scenarios for validation of functionality, security, and adaptability.
+   - Robust beta testing commences, subjecting the system to diverse scenarios for validation, improvement, and exponential speed improvements to the inducement of solutions to a given task, set up task or issue of functionality,  security, and adaptability.
 
-5. **Production/User Facing Solution 🌟:** 
-   - The AI solution, battle-tested and refined, transitions into a production-ready state, ready to empower end-users.
+5. **Production/User Specific Adaptive Solutions 🌟:** 
+   - The AI solution, battle-tested and refined, transitions into a production-ready state, ready to empower each end-user that is purposely unique to that individual.
 
 ## The Pillar of Connectivity: PIT-STOP 🚦💻
 
-*Paralleling Independent Technology and Synaptic Tethering and Ombi-Directional Processing System*
+*Paralleling Independent Technology and Synaptic Tethering and Omni-Directional Processing System*
 
-PIT-STOP stands as the bedrock of this interconnected intelligence network, ensuring:
-- Seamless communication and collaboration 🤝
-- Harmonized functionality across multiple systems 🔄
+PIT-STOPS stands as the bedrock of this interconnected intelligence network, ensuring:
+- Seamless communication and collaboration with almost any system 🤝
+- Harmonized functionality across multiple systems
+along with the ability to self create extensions for greater interconnectivity and interoperability  of previous, current, and systems 🔄
 - Unparalleled adaptability and responsiveness 🌐
 
 *Embark on a journey where innovation meets sophistication, forging a future where HIT MAN and PIT-STOP redefine the landscape of artificial intelligence.* 
@@ -37,8 +38,9 @@ PIT-STOP stands as the bedrock of this interconnected intelligence network, ensu
 ***HIT MAN demonstrates cutting-edge AI capabilities including:***
 - Automated workflow optimization
 - Advanced learning algorithms for improved accuracy and consistency 
-- Natural language processing, text understanding and semantic analysis  
-- Robotic process automation (RPA) to automate mundane tasks 
+- Natural language processing, text understanding and semantic analysis  
+- Robotic Process Automation (RPA) to automate repetitive task; weather, basic, moderate, or Advanced workflows
+- Generate the code for use on GitHub to deploy runners generate the code for use on GitHub to deploy runners 
 - Customizable predictive analytics algorithms to anticipate future outcomes 
 - Data integration and management tools for secure data transfers between systems  
 - Multi-domain conversational understanding
@@ -50,12 +52,14 @@ PIT-STOP stands as the bedrock of this interconnected intelligence network, ensu
 
 ---
 ## Getting Started
-These instructions will help you get Project HIT MAN up and running on your local system for development and testing purposes.
+These instructions will help you get Project HITMAN up and running on your local system for development and testing purposes.
 
 ## Prerequisites
 Requirements before installing Project HIT MAN:
 - Python 3.6 or higher
 - pip
+- pipenv
+- openai
 - virtualenv (recommended)
 
 ## Installation
