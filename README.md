@@ -116,7 +116,17 @@ Over 120 person-years of development effort have gone into the HIT MAN program s
 
 <h3>Cross-App Knowledge</h3>
 
-   HIT MAN can access data across a user's Google Drive, Gmail, Calendar, Keep, Office 365 and more to create complete user context for optimal operation.
+   HIT MAN can access data across a user's:
+  - Google Drive
+  - Gmail
+  - Google Calendar
+  - Google Keep
+  - Office 365 Suite
+  - Any cloud based storage
+  - Locally Stored Data
+  - and more...
+
+to create complete user context for optimal operation.
 
 <h3>Dynamic Learning</h3>
 
