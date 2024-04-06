@@ -14,18 +14,48 @@ orbs:
   # See here https://circleci.com/docs/set-environment-variable/#set-an-environment-variable-in-a-project
   aws-s3: circleci/aws-s3@4.0
 
+# Define a job for running tests
+jobs:
+  test:
+    docker:
+      - image: cimg/node:15.1
+    steps:
+      - checkout
+      - node/install-packages
+      - run:
+          command: npm run test
+          name: Run tests
+
+# Define a job for building and deploying the application
+jobs:
+  build-and-deploy:
+    docker:
+      - image: cimg/node:15.1
+    steps:
+      - checkout
+      - node/install-packages
+      - run:
+          command: npm run build
+          name: Build application
+      - aws-s3/sync:
+          from: dist/
+          to: s3://sample-app-vue
+          arguments: --delete
+      - run:
+          command: |
+            npm run deploy
+          name: Deploy application
+
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/workflows/ & https://circleci.com/docs/configuration-reference/#workflows
 workflows:
-  sample: # This is the name of the workflow, feel free to change it to better match your workflow.
-    # Inside the workflow, you define the jobs you want to run.
+  version: 2
+  build-test-deploy:
     jobs:
-      - node/test:
-          version: "15.1"
-          # after the node/test job completes, build the dist packages and save them to a workspace
-          post-steps:
-            - run: npm run build
-            - aws-s3/copy:
-                from: dist/
-                to: s3://sample-app-vue
-                arguments: --recursive
+      - test
+      - build-and-deploy:
+          requires:
+            - test
+          filters:
+            branches:
+              only: main

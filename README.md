@@ -1,8 +1,8 @@
 # Project HITMAN: AI-Powered Task Resolution System
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![GitHub Stars](https://img.shields.io/github/stars/yourusername/project-hitman.svg)](https://github.com/yourusername/project-hitman/stargazers)
-[![GitHub Issues](https://img.shields.io/github/issues/yourusername/project-hitman.svg)](https://github.com/yourusername/project-hitman/issues)
+[![GitHub Stars](https://img.shields.io/github/stars/usdos/project-hitman.svg)](https://github.com/usdos/project-hitman/stargazers)
+[![GitHub Issues](https://img.shields.io/github/issues/usdos/project-hitman.svg)](https://github.com/usdos/project-hitman/issues)
 
 <p align="center">
   <img src="https://example.com/logo.png" alt="Project HITMAN Logo" width="200">
