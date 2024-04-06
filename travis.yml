@@ -1,0 +1,24 @@
+language: python
+python:
+  - "3.6"
+  - "3.7"
+  - "3.8"
+  - "3.9"
+
+install:
+  - pip install -r requirements.txt
+  - pip install -e .[dev]
+
+script:
+  - pytest tests/
+  - flake8
+  - black --check .
+  - cd docs && make html
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  local_dir: docs/_build/html
+  on:
+    branch: main

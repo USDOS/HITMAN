@@ -1,0 +1,40 @@
+version: '3'
+
+services:
+  hitman:
+    build: .
+    volumes:
+      - .:/app
+    environment:
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - GOOGLE_VERTEX_AI_API_KEY=${GOOGLE_VERTEX_AI_API_KEY}
+      - CLOUDFLARE_API_KEY=${CLOUDFLARE_API_KEY}
+    depends_on:
+      - redis
+      - flower
+
+  redis:
+    image: redis:latest
+    ports:
+      - 6379:6379
+
+  flower:
+    build: .
+    command: celery flower --app=hitman.celery --port=5555
+    ports:
+      - 5555:5555
+    environment:
+      - CELERY_BROKER_URL=redis://redis:6379
+      - CELERY_RESULT_BACKEND=redis://redis:6379
+    depends_on:
+      - redis
+
+  worker:
+    build: .
+    command: celery worker --app=hitman.celery
+    environment:
+      - CELERY_BROKER_URL=redis://redis:6379
+      - CELERY_RESULT_BACKEND=redis://redis:6379
+    depends_on:
+      - redis

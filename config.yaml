@@ -1,0 +1,31 @@
+api_keys:
+  anthropic: your_anthropic_api_key
+  openai: your_openai_api_key
+  google_vertex_ai: your_google_vertex_ai_api_key
+  cloudflare: your_cloudflare_api_key
+
+data_sources:
+  google_drive: your_google_drive_credentials
+  gmail: your_gmail_credentials
+  google_calendar: your_google_calendar_credentials
+  google_keep: your_google_keep_credentials
+  office365: your_office365_credentials
+
+logging:
+  level: INFO
+  file: hitman.log
+  format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+
+celery:
+  broker_url: redis://localhost:6379
+  result_backend: redis://localhost:6379
+
+flower:
+  port: 5555
+  auth: your_flower_auth
+  url_prefix: /flower
+
+sphinx:
+  config_file: docs/conf.py
+  build_dir: docs/_build
+  source_dir: docs/
