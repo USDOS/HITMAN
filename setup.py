@@ -10,8 +10,8 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     author='US Department of Special Projects and Unified Response Services',
-    author_email='projecthitman@spurs.agency',
-    url='https://github.com/usdos/project-hitman',
+    author_email='admin@spurs.agency',
+    url='https://github.com/usdos/hitman',
     packages=find_packages(),
     install_requires=[
         'anthropic==0.2.2',
