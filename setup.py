@@ -26,7 +26,7 @@ setup(
         'google-auth-httplib2==0.1.0',
         'microsoft-graph==1.0.0',
         'celery==5.2.7',
-        'redis==4.3.4',
+        'redis==4.4.4',
         'flower==1.2.0',
     ],
     extras_require={

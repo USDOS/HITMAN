@@ -10,7 +10,7 @@ google-auth-oauthlib==0.5.3
 google-auth-httplib2==0.1.0
 microsoft-graph==1.0.0
 celery==5.2.7
-redis==4.3.4
+redis==4.4.4
 flower==1.2.0
 pytest==7.1.2
 black==22.3.0
