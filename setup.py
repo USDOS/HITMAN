@@ -32,7 +32,7 @@ setup(
     extras_require={
         'dev': [
             'pytest==7.1.2',
-            'black==22.3.0',
+            'black==24.3.0',
             'flake8==4.0.1',
             'pre-commit==2.20.0',
             'sphinx==4.5.0',
