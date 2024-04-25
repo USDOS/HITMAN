@@ -18,7 +18,7 @@ setup(
         'openai==0.27.0',
         'google-cloud-aiplatform==1.21.0',
         'cloudflare==2.11.0',
-        'requests==2.28.1',
+        'requests==2.31.0',
         'pyyaml==6.0',
         'python-dotenv==0.21.0',
         'google-api-python-client==2.70.0',
